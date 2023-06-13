@@ -38,6 +38,5 @@ class InputTodo extends Component {
                 </form>
             );
         }
-    }
-    
+    }    
     export default InputTodo;
