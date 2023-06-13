@@ -11,7 +11,6 @@ class InputTodo extends Component {
             [e.target.name]: e.target.value,
         });
     };
-
     handleSubmit = (e) => {
         e.preventDefault();
         if (this.state.title.trim()) {
@@ -39,5 +38,5 @@ class InputTodo extends Component {
                 </form>
             );
         }
-    }
+    }    
     export default InputTodo;
